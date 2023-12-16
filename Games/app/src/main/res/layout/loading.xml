@@ -1,0 +1,29 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/BG"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:id="@+id/ProgBG"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<ProgressBar
+				android:id="@+id/progressbar1"
+				android:focusable="false"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:indeterminate="true"
+				style="?android:progressBarStyle" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
